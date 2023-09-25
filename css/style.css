@@ -1,0 +1,87 @@
+
+
+body {
+ background-image: url(https://img.freepik.com/premium-vector/night-sky-with-clouds-many-stars-abstract-nature-background-with-stardust-deep-universe-vector-illustration_515038-9177.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ font-weight: 700!important;
+
+ color: white;
+
+}
+#mainnav{
+  background-color: transparent!important;
+  
+  
+}
+.navbar .navbar-toggler,a{
+  color: white!important;
+}
+
+
+#heading {
+  text-align: center;
+  margin: 40px;
+  font-size: 35px;
+  font-weight: 700;
+
+}
+
+.maindiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 2rem;
+}
+
+.leftdiv{
+  background-image:url(https://nordicapis.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App-1024x576.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-backdrop-filter: blur(5px);
+ backdrop-filter: blur(5px);
+  margin:0px 50px;
+  color: black;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px black;
+
+}
+
+.cardbody{
+    display: flex;
+    padding-left:20px ;
+    font-size: 20px;
+}
+.rightdiv{
+  background-image: url(https://cdn.jim-nielsen.com/ios/512/weather-2019-02-07.png);
+background-repeat: no-repeat;
+background-size: cover;
+color: black;
+margin:0px 50px;
+height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px black;
+}
+
+.wind{
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+    font-weight: 700;
+  
+
+}
+.windbody{
+
+    padding-left:60px ;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:600px) {
+  .maindiv{
+    flex-direction: column;
+  }
+}
